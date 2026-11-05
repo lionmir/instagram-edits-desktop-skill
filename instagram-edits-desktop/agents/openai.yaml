@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instagram Edits Desktop"
+  short_description: "Edit videos in Edits for Mac using verified tools"
+  default_prompt: "Use $instagram-edits-desktop to inspect my Edits tools and help edit my video."
