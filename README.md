@@ -6,7 +6,7 @@ Research baseline: November 5, 2026; installed Edits 454.0.0 (454.0.0.38.112). I
 
 ## Install
 
-[Download the latest release ZIP](https://github.com/lionmir/instagram-edits-desktop-skill/releases/latest/download/instagram-edits-desktop-v0.1.0.zip), extract it, open Terminal in the extracted folder and run one command. Requires Python 3.9 or newer; no external Python packages.
+[Download the latest release ZIP](https://github.com/thebreakdownsi/instagram-edits-desktop-skill/releases/latest/download/instagram-edits-desktop-v0.1.0.zip), extract it, open Terminal in the extracted folder and run one command. Requires Python 3.9 or newer; no external Python packages.
 
 ```sh
 # Claude Code, all local projects
@@ -22,12 +22,12 @@ python3 install.py --client both
 Or install from GitHub with Git:
 
 ```sh
-git clone https://github.com/lionmir/instagram-edits-desktop-skill.git
+git clone https://github.com/thebreakdownsi/instagram-edits-desktop-skill.git
 cd instagram-edits-desktop-skill
 python3 install.py --client both
 ```
 
-Choose `--client claude` or `--client codex` to install for one client only. Browse [all releases](https://github.com/lionmir/instagram-edits-desktop-skill/releases) for versioned downloads and SHA-256 checksums.
+Choose `--client claude` or `--client codex` to install for one client only. Browse [all releases](https://github.com/thebreakdownsi/instagram-edits-desktop-skill/releases) for versioned downloads and SHA-256 checksums.
 
 The installer refuses to overwrite an existing skill and changes no client settings or credentials. Restart the client if the skill does not appear.
 
@@ -101,7 +101,7 @@ Original skill instructions and installer are MIT-licensed; see [LICENSE](LICENS
 
 ## Contributing
 
-Report issues or propose changes through [GitHub](https://github.com/lionmir/instagram-edits-desktop-skill/issues). For a feature report, include your Edits version, client, current screen, and redacted error. Never include access tokens, private footage, or account-specific project data. Mark bundled action names separately from tools you tested successfully.
+Report issues or propose changes through [GitHub](https://github.com/thebreakdownsi/instagram-edits-desktop-skill/issues). For a feature report, include your Edits version, client, current screen, and redacted error. Never include access tokens, private footage, or account-specific project data. Mark bundled action names separately from tools you tested successfully.
 
 To refresh coverage, follow [sources and updates](instagram-edits-desktop/references/sources-and-updates.md). Build release assets with:
 
